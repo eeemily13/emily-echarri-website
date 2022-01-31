@@ -6,6 +6,8 @@ html {
     color: rgb(228, 225, 225);
 }
 
+
+}
 body{
     margin: 0px;
 }
@@ -22,6 +24,10 @@ h1 {
 h2 {
     color: #A08DE2;
     font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
 }
 .grid {
 display: grid;
@@ -74,7 +80,7 @@ li a:active {
 .main-content {
     padding-top: 100px ;
     display: grid;
-    grid-template-columns: repeat(6) 1fr;
+    
     grid-template-rows: repeat(9) 1fr;
     justify-content: space-between;
 }
@@ -103,6 +109,8 @@ margin-bottom: 35px;
    padding-top: 35px;;
 }
 .about-me-p {
+    display: flex;
+    flex-direction: column;
     grid-area: 2 / 2 / 2 / 2;
     padding: 35px;
     padding-right: 200px;
@@ -222,11 +230,11 @@ margin-bottom: 35px;
     row-gap: 35PX;
     width: 1200px;
     justify-self: center;
-    padding-bottom: 35px;
+    padding-bottom: 65px;
 }
 
 .skills img{
-    width: 50px;
+    width: 60px;
     height: auto;
 }
 
@@ -247,7 +255,7 @@ margin-bottom: 35px;
 }
 
 .logo-2 {
-    grid-area: 2 / 3 / 2 / 3;
+    grid-area: 2 / 2 / 2 / 2;
 }
 
 .logo-2-description {
@@ -259,7 +267,7 @@ margin-bottom: 35px;
 }
 
 .logo-3 {
-    grid-area: 2 / 2 / 2 / 2;
+    grid-area: 2 / 3 / 2 / 3;
 }
 
 .logo-3-description {
@@ -290,4 +298,5 @@ margin-bottom: 35px;
 .contact-form {
     padding-top: 150px;
 }
+
 

@@ -1,0 +1,32 @@
+* {
+     margin: 0; padding: 0; 
+}
+
+html {
+    background-color: rgb(42, 39, 46);
+    text-align: center;
+    font-family: 'lato';
+    font-size: 16px;
+    color: rgb(228, 225, 225);
+}
+
+
+img {
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #A08DE2;
+    font-size: 24px;
+}
+
+    li a {
+        color: white;
+        text-decoration: none;   
+    }

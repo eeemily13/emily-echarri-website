@@ -1,0 +1,293 @@
+html {
+    background-color: rgb(42, 39, 46);
+    text-align: center;
+    font-family: 'lato';
+    font-size: 16px;
+    color: rgb(228, 225, 225);
+}
+
+body{
+    margin: 0px;
+}
+img {
+    width: 200px;
+    height: 100px;
+    justify-self: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #A08DE2;
+    font-size: 24px;
+}
+.grid {
+display: grid;
+grid-template-columns: 1fr 0.5fr 1fr;
+grid-template-rows: 100px;
+width: 100%;
+
+}
+
+.about-me img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+header nav {
+    background-color: black;
+    color: white;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    justify-content: end;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+}
+
+header ul {
+    display: inline;
+    grid-column-start: 3;
+    margin-top: 25px;
+    
+}
+
+header li{
+   float: left;
+   display: inline-block;
+   padding: 18px;
+   margin-right: 2px;
+   text-transform: uppercase;
+}
+
+li a {
+    color: white;
+    text-decoration: none;   
+}
+
+li a:active {
+    color: #A08DE2;
+}
+
+.main-content {
+    padding-top: 100px ;
+    display: grid;
+    grid-template-columns: repeat(6) 1fr;
+    grid-template-rows: repeat(9) 1fr;
+    justify-content: space-between;
+}
+
+.introduction-heading h1 {
+color: #A08DE2;
+margin-top: 35px;
+margin-bottom: 35px;
+
+} 
+
+.main-content .introduction-p {
+    padding: 20px;;
+}
+.about-me{
+    padding: 45px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 150px 400px 0px;
+    padding-top: 0px;
+    padding-left: 100px;
+    
+}
+
+.about-me h2 {
+   padding-top: 35px;;
+}
+.about-me-p {
+    grid-area: 2 / 2 / 2 / 2;
+    padding: 35px;
+    padding-right: 200px;
+    padding-left: 100px;
+    line-height: 1.5;
+}
+.about-me img {
+  height: 300px;
+  width: auto;
+  border-radius: 35px;
+  margin-top: 30px;
+}
+
+.about-me .introduction-p {
+    padding: 35px;
+    line-height: 1.5;
+}
+
+
+.projects{
+    display: grid;
+    grid-template-rows: 150px 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    padding: 35px;
+    
+}
+
+.projects h2 {
+    grid-area: 1 / 1 / 1 / 1;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.projects a {
+    color: white;
+}
+
+.projects h3{
+    color: #A08DE2;
+
+    }
+
+
+.website-a {
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.website-a img {
+    width: 500px;
+    height: auto;
+    transition: transform .5s; /* Animation */
+}
+
+.website-a img:hover {
+    transform: scale(1.5);
+}
+
+.website-a a:active { 
+    color: #A08DE2;
+}
+
+
+
+.website-b {
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+.website-b img {
+    width: 500px;
+    height: auto;
+    transition: transform .5s; /* Animation */
+}
+
+.website-b img:hover {
+    transform: scale(1.5);
+}
+.website-b a:active { 
+    color: #A08DE2;
+}
+
+.website-c {
+    grid-area: 3 / 1 / 4 / 1;
+}
+
+.website-c img {
+    width: 500px;
+    height: auto;
+    transition: transform .5s; /* Animation */
+}
+
+.website-c img:hover {
+    transform: scale(1.5);
+}
+
+.website-c a:active { 
+    color: #A08DE2;
+}
+
+
+.website-d img {
+    width: 500px;
+    height: auto;
+    transition: transform .5s; /* Animation */
+}
+
+.website-d img:hover {
+    transform: scale(1.5);
+}
+
+.website-d a:active { 
+    color: #A08DE2;
+}
+
+.skills {
+    display: grid;
+    grid-template: 50px 50px / 20% 20% 20% 20% 20%;  
+    row-gap: 35PX;
+    width: 1200px;
+    justify-self: center;
+    padding-bottom: 35px;
+}
+
+.skills img{
+    width: 50px;
+    height: auto;
+}
+
+.skills h2 {
+    grid-area: 1 / 1 / 1 / 1;
+}
+
+.logo-1 {
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.logo-1-description {
+    visibility: hidden;
+}
+
+.logo-1:hover .logo-1-description {
+    visibility: visible;
+}
+
+.logo-2 {
+    grid-area: 2 / 3 / 2 / 3;
+}
+
+.logo-2-description {
+    visibility: hidden;
+}
+
+.logo-2:hover .logo-2-description {
+    visibility: visible;
+}
+
+.logo-3 {
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+.logo-3-description {
+    visibility: hidden;
+}
+
+.logo-3:hover .logo-3-description {
+    visibility: visible;
+}
+
+.logo-4 {
+    grid-area: 2 / 4 / 2 / 4;
+}
+
+.logo-4-description {
+    visibility: hidden;
+}
+
+.logo-4:hover .logo-4-description {
+    visibility: visible;
+}
+.rates {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+}
+
+.contact-form {
+    padding-top: 150px;
+}
+

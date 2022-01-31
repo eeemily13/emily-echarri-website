@@ -16,12 +16,12 @@ img {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 h2 {
     color: #A08DE2;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .grid {
 display: grid;
